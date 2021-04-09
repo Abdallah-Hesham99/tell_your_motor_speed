@@ -7,11 +7,15 @@ Project by Abdallah Hesham :)
 ### To allow communication from python file to Arduino, I used ROS, so to use this package, you will need to install rosserial_python, which you'll find details on how to install it here: https://maker.pro/arduino/tutorial/how-to-use-arduino-with-robot-operating-system-ros, 
 ## Arduino applies PID control on the motor and publishes the speed in an angular.x twist msg, and the current setpoint in the angular.y field for the same msg and 
 ## there is a separate topic for the current PID output, to change the setpoint run the speech recognition python file using '<roslaunch tell_your_motor_speed launcher.launch>' 
-## You will see an image asking you to get ready, it will last for 1 second, then an image saying 'recording' will show, you need to time your command with the  ## second image, commands available are digits from 0-9 and 'stop', digits will choose a certain speed but 'stop' will set the setpoint to 0
+## You will see an image asking you to get ready, it will last for 1 second, then an image that indicates 'recording' will show, you need to time your command with the  ## second image, commands available are digits from 0-9 and 'stop', digits will choose a certain speed but 'stop' will set the setpoint to 0
 ![get ready](images.jpeg)
-Format: ![Alt Text](url)
+   
+Format: ![Alt Text](https://cutt.ly/icMoriR)
+   
+   
 ![recording](index.png)
-Format: ![Alt Text](url)
+
+Format: ![Alt Text](https://droplr.com/how-to/productivity-tools/picking-the-best-audio-recording-software-for-your-computer/)
 
 
 ## You need to upload the code to Arduino, run roscore, then run <rosrun rosserial_python serial_node.py /dev/ttyACM0> Then you are ready to go.
@@ -40,8 +44,8 @@ Dataset citation:
     url = {https://arxiv.org/abs/1804.03209},
 }
 img "recording" source:
-https://droplr.com/how-to/productivity-tools/picking-the-best-audio-recording-software-for-your-computer/
+
    
 img "getready" source:
-https://cutt.ly/icMoriR
+
 
