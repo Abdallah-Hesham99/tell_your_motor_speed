@@ -10,7 +10,7 @@ Project by Abdallah Hesham :)
 ## You will see an image asking you to get ready, it will last for 1 second, then an image saying 'recording' will show, you need to time your command with the  ##second image, commands available are digits from 0-9 and 'stop', digits will choose a certain speed but 'stop' will set the setpoint to 0
 
 ## You need to upload the code to Arduino, run roscore, then run <rosrun rosserial_python serial_node.py /dev/ttyACM0> Then you are ready to go.
-###if you get stuck when running the command <rosrun rosserial_python serial_node.py /dev/ttyACM0> check which port your Arduino is connected to from the IDE.
+### if you get stuck when running the command <rosrun rosserial_python serial_node.py /dev/ttyACM0> check which port your Arduino is connected to from the IDE.
 ### You will need to have sounddevice, scipy, TensorFlow and rospy to use this project
 
 
