@@ -4,7 +4,16 @@ Project by Abdallah Hesham :)
 ## This project implements speed control of a DC motor using PID control and Arduino, and adds the ability to choose one of several setpoints for the speed value using your voice!
 ### The speech recognition model is built in Tensorflow, I basically followed the tutorial in their documentation, and used the public speech commands dataset(link is in the end with the citation)
 
-### To allow communication from python file to Arduino, I used ROS, so to use this package, you will need to install rosserial_python, which you'll find details on how to install it here:(https://maker.pro/arduino/tutorial/how-to-use-arduino-with-robot-operating-system-ros) 
+
+x-special/nautilus-clipboard
+copy
+file:///home/abdallah/Motor_voice_speed.mp4
+
+
+
+
+
+### To allow communication from python file to Arduino, I used ROS, so to use this package, you will need to install rosserial_python, which you'll find details on how to install it here: https://maker.pro/arduino/tutorial/how-to-use-arduino-with-robot-operating-system-ros
 ## Arduino applies PID control on the motor and publishes the speed in an angular.x twist msg, and the current setpoint in the angular.y field for the same msg and 
 ## there is a separate topic for the current PID output, to change the setpoint run the speech recognition python file using '<roslaunch tell_your_motor_speed launcher.launch>' 
 ## You will see an image asking you to get ready, it will last for 1 second, then an image that indicates 'recording' will show, you need to time your command with the  ## second image, commands available are digits from 0-9 and 'stop', digits will choose a certain speed but 'stop' will set the setpoint to 0
