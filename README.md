@@ -34,8 +34,9 @@ Dataset citation:
     month = apr,
     url = {https://arxiv.org/abs/1804.03209},
 }
-img <recording> source:
+img "recording" source:
 https://droplr.com/how-to/productivity-tools/picking-the-best-audio-recording-software-for-your-computer/
-img <get ready> source:
+   
+img "getready" source:
 https://cutt.ly/icMoriR
 
