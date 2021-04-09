@@ -12,9 +12,9 @@ Project by Abdallah Hesham :)
 ## Arduino applies PID control on the motor and publishes the speed in an angular.x twist msg, and the current setpoint in the angular.y field for the same msg and 
 ## there is a separate topic for the current PID output, to change the setpoint run the speech recognition python file using '<roslaunch tell_your_motor_speed launcher.launch>' 
 ## You will see an image asking you to get ready, it will last for 1 second, then an image that indicates 'recording' will show, you need to time your command with the  ## second image, commands available are digits from 0-9 and 'stop', digits will choose a certain speed but 'stop' will set the setpoint to 0
-![get ready](images.jpeg)
+![get ready](recording.png)
    
-[https://droplr.com/how-to/productivity-tools/picking-the-best-audio-recording-software-for-your-computer/]
+[https://cutt.ly/TcMgDQT]
    
 ![recording](index.png)
 
