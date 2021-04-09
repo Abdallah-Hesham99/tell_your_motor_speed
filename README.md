@@ -15,7 +15,7 @@ Format: ![Alt Text](https://cutt.ly/icMoriR)
    
 ![recording](index.png)
 
-Format: ![Alt Text](https://droplr.com/how-to/productivity-tools/picking-the-best-audio-recording-software-for-your-computer/)
+Format: ![Alt Text] [https://droplr.com/how-to/productivity-tools/picking-the-best-audio-recording-software-for-your-computer/]
 
 
 ## You need to upload the code to Arduino, run roscore, then run <rosrun rosserial_python serial_node.py /dev/ttyACM0> Then you are ready to go.
