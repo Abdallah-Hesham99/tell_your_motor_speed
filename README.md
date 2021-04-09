@@ -18,12 +18,12 @@ Project by Abdallah Hesham :)
 ## You will see an image asking you to get ready, it will last for 1 second, then an image that indicates 'recording' will show, you need to time your command with the  ## second image, commands available are digits from 0-9 and 'stop', digits will choose a certain speed but 'stop' will set the setpoint to 0
 ![get ready](images.jpeg)
    
-Format: ![source] [https://cutt.ly/icMoriR]
-   
+[https://droplr.com/how-to/productivity-tools/picking-the-best-audio-recording-software-for-your-computer/]
    
 ![recording](index.png)
 
-Format: ![source] [https://droplr.com/how-to/productivity-tools/picking-the-best-audio-recording-software-for-your-computer/]
+[https://cutt.ly/icMoriR]
+    
 
 
 ## You need to upload the code to Arduino, run roscore, then run <rosrun rosserial_python serial_node.py /dev/ttyACM0> Then you are ready to go.
