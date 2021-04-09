@@ -8,10 +8,6 @@ Project by Abdallah Hesham :)
 
 
 
-
-
-
-
 ### To allow communication from python file to Arduino, I used ROS, so to use this package, you will need to install rosserial_python, which you'll find details on how to install it here: https://maker.pro/arduino/tutorial/how-to-use-arduino-with-robot-operating-system-ros
 ## Arduino applies PID control on the motor and publishes the speed in an angular.x twist msg, and the current setpoint in the angular.y field for the same msg and 
 ## there is a separate topic for the current PID output, to change the setpoint run the speech recognition python file using '<roslaunch tell_your_motor_speed launcher.launch>' 
@@ -51,6 +47,7 @@ Dataset citation:
     month = apr,
     url = {https://arxiv.org/abs/1804.03209},
 }
-
+Tensorflow Tutorial:
+https://www.tensorflow.org/tutorials/audio/simple_audio
 
 
