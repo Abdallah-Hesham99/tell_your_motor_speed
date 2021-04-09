@@ -1,3 +1,4 @@
+
 # tell_your_motor_speed
 Repo for motor speed control using PID control amd speech recognition .
 Project by Abdallah Hesham :)
@@ -5,9 +6,7 @@ Project by Abdallah Hesham :)
 ### The speech recognition model is built in Tensorflow, I basically followed the tutorial in their documentation, and used the public speech commands dataset(link is in the end with the citation)
 
 
-x-special/nautilus-clipboard
-copy
-file:///home/abdallah/Motor_voice_speed.mp4
+
 
 
 
