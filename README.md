@@ -23,7 +23,7 @@ Project by Abdallah Hesham :)
     
 
 #### Copy the package tell_your_motor_speed folder to ~/catkin_ws/src then run `cd ~/catkin_ws` and <catkin_make>, Finally run `source ~/catkin_ws/devel/setup/sh`
-#### You need to upload the code to Arduino, run roscore, then run `rosrun rosserial_python serial_node.py /dev/ttyACM0` Then you are ready to go. But don't forget to change the path for these images in the Speech_PID_project.py file located in the src folder in tell_your_motor_speed package folder.
+#### You need to upload the code to Arduino, run roscore, then run `rosrun rosserial_python serial_node.py /dev/ttyACM0` Then you are ready to go. But don't forget to change the path for these images and the model weights in the Speech_PID_project.py file located in the src folder in tell_your_motor_speed package folder.
 #### if you get stuck when running the command `rosrun rosserial_python serial_node.py /dev/ttyACM0` check which port your Arduino is connected to from the IDE.
 #### You will need to have sounddevice, scipy, TensorFlow and rospy to use this project
 ### 
